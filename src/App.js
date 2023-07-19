@@ -48,7 +48,14 @@ const CommentAnalyzer = () => {
   const analyzeComments = async () => {
     try {
       const response = await axios.get(
-        `https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=${videoId}&key=AIzaSyAy1ItksYzbvk5zgTt-1J7Csugij68tx6g`
+        `https://www.googleapis.com/youtube/v3/commentThreads`,{
+          params: {
+            part: 'snippet',
+            videoId: videoId,
+            key: 'AIzaSyAy1ItksYzbvk5zgTt-1J7Csugij68tx6g', 
+            maxResults: 100, 
+          },
+        }
       );
 
       const commentsData = response.data.items.map(
