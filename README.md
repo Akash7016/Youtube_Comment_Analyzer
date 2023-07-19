@@ -4,4 +4,4 @@ It analyses the comments for you and this app is based on a dictionary of words 
 pie chart to display total likes and dislikes amounts, and a histogram to plot the results for different sentiment groups of comments. 
 
 ## Live
-[Youtube Comment Analyzer](youtubecommentanalyzer.netlify.app)
+[YoutubeCommentAnalyzer](https://youtubecommentanalyzer.netlify.app)
