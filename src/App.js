@@ -52,7 +52,7 @@ const CommentAnalyzer = () => {
           params: {
             part: 'snippet',
             videoId: videoId,
-            key: 'AIzaSyAy1ItksYzbvk5zgTt-1J7Csugij68tx6g', 
+            key: 'YOUR_API_CODE', 
             maxResults: 100, 
           },
         }
